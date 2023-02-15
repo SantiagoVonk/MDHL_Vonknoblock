@@ -2,76 +2,122 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
-h1 {
-    display: block;
-    font-size: 6rem;
-}
-
-nav {
-    position: absolute;
-    right: 50px;
-    
-}
-
-a {
-    margin: 10px;
-    padding: 20px;
-    font-size: 2rem;
-    background-color: cornflowerblue;
-    color: white;
-    border: solid;
-    border-color: black;
-}
-
-.image {
-    height: 500px;
+.div_header {
+    display: flex;
+    min-height: 30vh;
     width: 100%;
     background-image: url(./assets/img/design2_image1.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: space-around;
+
 }
 
-.h2_subt {
-    display: block;
-    font-size: 2rem;
-    text-align: center;
-    border: solid;
+h1 {
+    color: black;
+    font-size: 4rem;
 }
 
-.about {
-    margin-top: 20px;
-    margin-bottom: 20px;
+nav {
+    display: flex;
+    flex-direction: column;
 }
 
-figure {
-    display: inline-block;
+nav a {
+    text-decoration: none;
+    margin: 10px;
+    color: gold;
+    border: 2px solid whitesmoke;
+    
+}
+
+a:hover {
+    background-color: aqua;
 }
 
 .logo {
-    width: 120px;
-    margin-top: 50px;
+    width: 10vh;
 }
 
-.section {
-    position: absolute;
-    left: 20%;
-    top: 700px;
+.logo:hover {
+    width: 12vh;
 }
 
-.h3_home {
-    margin: 20px;
+.div_main {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    width: 100%;
+    background-color: bisque;
+    
+
+} 
+
+.h2_main {
     font-size: 2rem;
+    background-color: black;
+    color: bisque;
+    align-self: center;
+}
+
+dl {
+    display: flex;
+    flex-direction: column;
+    width: 45vh;
+    margin-top: 50px;
+    background-color: blanchedalmond;
+    font-size: 1rem;
+    align-self: center;
+}
+
+dt {
+    margin: 20px;
+    font-weight: bold;
+    
+}
+
+dd {
+    margin: 10px;
 }
 
 .img_hockey {
-    height: 200px;
-    position: absolute;
-    right: 20px;
-    bottom: 100px;
+    width: 25vh;
+    height: 25vh;
+    align-self: center;
 }
 
-.p_contact {
-    font-size: large;
-    padding: 15px;
+.div_p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.div_rules {
+    align-self: center;
+}
+
+.div_game_info, .div_game_info2 {
+    align-self: center;
+}
+
+table {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: beige;
+    border-spacing: 5px;
+    table-layout: auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 5px solid;
+}
+
+.table {
+    align-self: center;
 }
