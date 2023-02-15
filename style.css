@@ -64,6 +64,14 @@ a:hover {
     align-self: center;
 }
 
+.game_info {
+    align-self: center;
+}
+
+.section {
+    align-self: center;
+}
+
 dl {
     display: flex;
     flex-direction: column;
