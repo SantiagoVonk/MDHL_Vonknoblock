@@ -50,3 +50,48 @@ nav a:hover{
 .img_hockey{
     width: 10vw;
 }
+
+.container{
+    width: 100vw;
+    background-color: lightslategray;
+    display: flex;
+    flex-direction: column;
+}
+
+.container_h2{
+    display: flex;
+    background-color: lightblue;
+    height: 5vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.subtitulo{
+    color: black;
+}
+
+.centro{
+    display: flex;
+    background-color: lightseagreen;
+    height: 45vh;
+    align-items: center;
+    justify-content: center;
+}
+#id_centro{
+    height: 60vh;
+}
+.imagen{
+    display: flex;
+    background-color: lightsalmon;
+    height: 15vh;
+    justify-content: center;
+}
+
+span{
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+
+ol{
+    margin-left: 25px;
+}
