@@ -6,7 +6,8 @@
 }
 body{
     background-color: black;
-    color: white;    
+    color: white; 
+    height: auto;   
 }
 
 header{
@@ -77,14 +78,45 @@ nav a:hover{
     align-items: center;
     justify-content: center;
 }
-#id_centro{
-    height: 60vh;
-}
+
 .imagen{
     display: flex;
     background-color: lightsalmon;
     height: 15vh;
     justify-content: center;
+}
+
+#centro{
+    display: flex;
+    background-color: lightseagreen;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgreen;
+}
+
+span{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+form{
+    background-color: lightcoral;
+    color: black;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    width: 1000px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+div h2{
+    color: black;
+    text-shadow: 2px 2px gold;
 }
 
 span{
@@ -103,12 +135,29 @@ fieldset{
 
 label{
     margin: 10px;
+    font-family: cursive;
 }
 
 input{
     padding: 5px;
 }
 
+fieldset legend {
+    font-weight: bolder;
+}
+
 fieldset p {
     margin: 5px 5px;
 }
+
+iframe{
+    width: 400px;
+    height: 300px;
+}
+
+#btn{
+    margin-left: 50%;
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+}
+
