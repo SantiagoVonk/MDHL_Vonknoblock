@@ -26,14 +26,183 @@
         </nav>
     </header>
     <main>
-        <div class="container">
+        <div class="container" id="id_register">
             <div class="container_h2">
                 <h2 class="subtitulo">Register</h2>
             </div>
 
             <div class="centro">
+                <h2>Registration Form</h2>
+                <form action="./formulario.html">
+                    <fieldset>
+                        <legend>Personal Data</legend>
+                    <label>
+                        Player's First Name:
+                        <input name="nombre" type="text">
+                    </label>
+                    <label>
+                        Last Name:
+                        <input name="apellido" type="text">
+                    </label> <br>
+                    <label>
+                        Street Addres:
+                        <input name="direccion" type="text">
+                    </label> <br>
+                    <label>
+                        City:
+                        <input name="ciudad" type="text">
+                    </label>
+                    <label>
+                        Zip Code:
+                        <input name="c.p." type="number">
+                    </label> <br>
+                    <label>
+                        Birth Date:
+                        <input name="fechaNac" type="date">
+                    </label>
+                    <p>Gender:</p>
+                    <label>
+                        Male
+                        <input value="B" name="genero" type="radio">
+                    </label>
+                    <label>
+                        Female
+                        <input value="G" name="genero" type="radio">
+                    </label> <br>
 
-                
+                    <p>Grade:</p>
+                    <label>
+                        Pre-School
+                        <input name="grade" value="ps" type="radio">
+                    </label>
+                    <label>
+                        1st.
+                        <input name="grade" value="1st" type="radio">
+                    </label>
+                    <label>
+                        2st.
+                        <input name="grade" value="2nd" type="radio">
+                    </label>
+                    <label>
+                        3st.
+                        <input name="grade" value="3rd" type="radio">
+                    </label>
+                    <label>
+                        4th.
+                        <input name="grade" value="4th" type="radio">
+                    </label>
+                    <label>
+                        5th.
+                        <input name="grade" value="5th" type="radio">
+                    </label>
+ 
+                </fieldset>
+
+                <fieldset>
+                    <legend>Which elementary school do you live near?</legend>
+                    <p>Closest School</p>
+                    <label>
+                        <input name="school" value="0" type="radio">
+                        Aj Katzenmaier
+                    </label>
+                    <label>
+                        <input name="school" value="1" type="radio">
+                        Greenbay
+                    </label>
+                    <label>
+                        <input name="school" value="2" type="radio">
+                        Howard A Yeager
+                    </label> <br>
+                    <label>
+                        <input name="school" value="3" type="radio">
+                        Marjorie P Hart
+                    </label>
+                    <label>
+                        <input name="school" value="4" type="radio">
+                        North Elementary
+                    </label>
+                    <label>
+                        <input name="school" value="5" type="radio">
+                        South Elementary
+                    </label> <br>
+                </fieldset>
+                <fieldset>
+                    <legend>What position(s) do you normally play? (check all that apply)</legend>
+                    
+                    <label>
+                        <input name="forward" value="a" type="checkbox">
+                        Forward
+                    </label>
+                    <label>
+                        <input name="defense" value="b" type="checkbox">
+                        Defense
+                    </label>
+                    <label> <br>
+                        <input name="midfield" value="c" type="checkbox">
+                        Midfield
+                    </label>
+                    <label>
+                        <input name="goalkeeper" value="d" type="checkbox">
+                        Goalkeeper
+                    </label>                  
+                </fieldset>
+                <fieldset>
+                    <legend>Uniform size:</legend>
+                    <label>
+                        <input name="size" value="0" type="radio">
+                        Youth Smal
+                    </label>
+                    <label>
+                        <input name="size" value="1" type="radio">
+                        Youth Medium
+                    </label>
+                    <label>
+                        <input name="size" value="2" type="radio">
+                        Youth Large
+                    </label> <br>
+                    <label>
+                        <input name="size" value="3" type="radio">
+                        Small
+                    </label>
+                    <label>
+                        <input name="size" value="4" type="radio">
+                        Medium
+                    </label>
+                    <label>
+                        <input name="size" value="5" type="radio">
+                        Large
+                    </label> <br>
+                    <label>
+                        <input name="size" value="5" type="radio">
+                        Extra-Large
+                    </label> <br>
+                </fieldset>
+                <fieldset>
+                    <legend>Permission to Play</legend>
+                    <span><p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the 
+                        rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury
+                        associated with hockey and in consideration for the "League" accepting the registrant for its 
+                        hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, 
+                        their employees and associated personnel and volunteers, including the facilities used for 
+                        practices and games, against any claim by or on behalf of the registrant as a result of the 
+                        registrant's participation in the programnd/orbeing transported to or from MDHL sponsored
+                        activities, which transportation.
+                        By signing below, I herebyagree and authorize the above. In addition, by signing below, lalso
+                        acknowledge that I have read the cancellation policy and agree to its terms.
+                    </p></span>
+                </fieldset>
+                <fieldset>
+                    <label>
+                        Parent/Guardian Signature:
+                        <input name="firma" type="text">
+                    </label>
+                    <label>
+                        Date:
+                        <input name="permission" type="date">
+                    </label>
+                </fieldset>
+                <input type="submit">
+                </form>
             </div>
 
         </div>

@@ -95,3 +95,20 @@ span{
 ol{
     margin-left: 25px;
 }
+
+fieldset{
+    margin: 10px;
+    padding: 10px;
+}
+
+label{
+    margin: 10px;
+}
+
+input{
+    padding: 5px;
+}
+
+fieldset p {
+    margin: 5px 5px;
+}
